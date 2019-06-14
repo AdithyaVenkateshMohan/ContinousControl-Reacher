@@ -28,7 +28,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 ### Instructions
 
-Follow the instructions in  `Continuous_Control.ipynb` to get started with training the agent!
+Follow the instructions in  `Cont_Control_final.ipynb` to get started with training the agent!
 
 The project excution and methodlogy are described in detail in <a href="Report.md">Report</a> which is attached in the repo.
 
