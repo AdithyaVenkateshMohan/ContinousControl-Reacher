@@ -1,8 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
-[image2]: https://user-images.githubusercontent.com/10624937/43851646-d899bf20-9b00-11e8-858c-29b5c2c94ccc.png "Crawler"
-
+[image1]: Reaherdemogif.gif "Trained Agent"
 
 # Reacher - Continuous Control
 
@@ -10,7 +8,7 @@
 
 This repo trains a DDPG agent to solve the Unity [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
-![Trained Agent][image1]
+[![Trained Agent][image1]](https://www.youtube.com/watch?v=KEl6X9LpoA0)
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
@@ -33,3 +31,8 @@ The observation space consists of 33 variables corresponding to position, rotati
 Follow the instructions in  `Continuous_Control.ipynb` to get started with training the agent!
 
 The project excution and methodlogy are described in detail in <a href="Report.md">Report</a> which is attached in the repo.
+
+to run the trained agents just run the script <a href = "Testing.py"> Testing.py </a>
+```
+python3 Testing.py
+```
